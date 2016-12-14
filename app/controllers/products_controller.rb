@@ -1,6 +1,6 @@
 class ProductsController < ApplicationController
   def index
-  @products = Products.all
+  @product = Product.all
   end
 
   def show
